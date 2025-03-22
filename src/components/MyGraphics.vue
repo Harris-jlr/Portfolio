@@ -46,34 +46,34 @@
 
 <script>
 import AccordionGallery from '/src/components/AccordionGallery.vue';
-import invite1 from '/src/assets/2_image001.png';
-import invite2 from '/src/assets/AIW_ver2.png';
-import invite3 from '/src/assets/Alice invitation.png';
-import invite4 from '/src/assets/evite_2017.png';
-import invite5 from '/src/assets/Junction_2016.png';
-import invite6 from '/src/assets/splatoon2_09162017.png';
-import invite7 from '/src/assets/wizofoz_2015.png';
+import invite1 from '../assets/2_image001.png';
+import invite2 from '../assets/AIW_ver2.png';
+import invite3 from '../assets/Alice invitation.png';
+import invite4 from '../assets/evite_2017.png';
+import invite5 from '../assets/Junction_2016.png';
+import invite6 from '../assets/splatoon2_09162017.png';
+import invite7 from '../assets/wizofoz_2015.png';
 
-import save1 from '/src/assets/savethedate_2013.jpg';
-import save2 from '/src/assets/Savethedate_2015.png';
+import save1 from '../assets/savethedate_2013.jpg';
+import save2 from '../assets/Savethedate_2015.png';
 
-import poster1 from '/src/assets/heavenly-jewels.png';
-import poster2 from '/src/assets/nakhla.png';
-import poster3 from '/src/assets/Nakhla_metsoc_2011_take2.png';
-import poster4 from '/src/assets/ssg_timeline.png';
+import poster1 from '../assets/heavenly-jewels.png';
+import poster2 from '../assets/nakhla.png';
+import poster3 from '../assets/Nakhla_metsoc_2011_take2.png';
+import poster4 from '../assets/ssg_timeline.png';
 
-import ticket1 from '/src/assets/tickets.png';
-import ticket2 from '/src/assets/Womensexplosion_ticket.png';
+import ticket1 from '../assets/tickets.png';
+import ticket2 from '../assets/Womensexplosion_ticket.png';
 
-import ad1 from '/src/assets/jreustle_MusicAd.jpg';
-import ad2 from '/src/assets/vibe3.png';
+import ad1 from '../assets/jreustle_MusicAd.jpg';
+import ad2 from '../assets/vibe3.png';
 
-import pres1 from '/src/assets/analytics.png';
-import pres2 from '/src/assets/claimviewer.png';
-import pres3 from '/src/assets/customerservice.png';
-import pres4 from '/src/assets/pagestatistics.png';
-import pres5 from '/src/assets/reporting.png';
-import pres6 from '/src/assets/samplewebapp.png';
+import pres1 from '../assets/analytics.png';
+import pres2 from '../assets/claimviewer.png';
+import pres3 from '../assets/customerservice.png';
+import pres4 from '../assets/pagestatistics.png';
+import pres5 from '../assets/reporting.png';
+import pres6 from '../assets/samplewebapp.png';
 
 export default {
   components: { AccordionGallery },

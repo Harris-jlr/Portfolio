@@ -2,7 +2,7 @@
  <div class="bg-gray-900 w-screen h-18 text-md p-2 m-0 text-white shadow-lg z-50" id="trin_header">
         <div class="box-logo">
             <a href="/public/samples4trinity.html">
-                <img width="215" height="28" src="/src/assets/trinsightLogo_White.png" alt="TrinityRail">
+                <img width="215" height="28" src="../assets/trinsightLogo_White.png" alt="TrinityRail">
             </a>
         </div>
     </div>  
