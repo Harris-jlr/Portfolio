@@ -23,18 +23,27 @@
 </template>
 
 <script>
+import hysterYale from '../assets/hysteryale.png'
+import biotechne from '../assets/Biotechne.png'
+import amazing4 from '../assets/theamazing4.png'
+import magellan from '../assets/Magellan.png'
+import lunar from '../assets/lunar.png'
+import online from '../assets/online.png'
+import mckesson from '../assets/Mckesson.png'
+import sandstech from '../assets/SandsTech.png'
+
 export default {
   data() {
     return {
       cards: [
-        { title: "Hyster-Yale", description: "Assisted in the design and build of their new traffic manager to help facilitate their autonomous fork lifts", role: "UX Designer, Front-End Dev, Strategy Consultant", tools: "Vue, Tailwind, Jira, Miro", image: "/assets/hysteryale.png", showRole: false },
-        { title: "Bio-Techne", description: "Worked on performance issue with their Drupal site and helped build the views for a consolidated look.", role: "Performance Tuner, Front-End Dev", tools: "Drupal, jQuery, Chrome DevTools", image: "/assets/Biotechne.png", showRole: false },
-        { title: "The Amazing 4", description: "Full website, branding, and logo for a startup company that plans 4 events per year.", role: "Designer, WordPress Developer, Branding Consultant", tools: "WordPress, Illustrator, CSS", image: "/assets/theamazing4.png", showRole: false },
-        { title: "Magellan", description: "Won the opportunity to help alleviate some WordPress Issue by creating and installing a custom child theme.", role: "WordPress Developer, Theme Customizer", tools: "WordPress, PHP, CSS", image: "/assets/Magellan.png", showRole: false },
-        { title: "Nasa Curation Website", description: "These sites were created using a template that we initiated to bring all the pages into a standard look and feel.", role: "Design Standardization, Front-End Dev", tools: "HTML, CSS, NASA Template", image: "/assets/lunar.png", showRole: false },
-        { title: "Personal Portfolio", description: "This was my previous online portfolio. Just a static website and now I've updated it to be a vite application.", role: "Sole Designer & Developer", tools: "HTML, CSS, Vite, Vue", image: "/assets/online.png", showRole: false },
-        { title: "McKesson", description: "Brought on to Update internal dashboard and create better use of screen for KPI's.", role: "UI Designer, Dashboard Developer", tools: "Power BI, HTML, CSS", image: "/assets/Mckesson.png", showRole: false },
-        { title: "SandsTech", description: "I was brought on to research, gather, design, and develop an enterprise software called sandstech services suite.", role: "Product Strategist, UX Architect, Developer", tools: "Vue, Tailwind, Firebase", image: "/assets/SandsTech.png", showRole: false },
+        { title: "Hyster-Yale", description: "Assisted in the design and build of their new traffic manager to help facilitate their autonomous fork lifts", role: "UX Designer, Front-End Dev, Strategy Consultant", tools: "Vue, Tailwind, Jira, Miro", image: hysterYale, showRole: false },
+        { title: "Bio-Techne", description: "Worked on performance issue with their Drupal site and helped build the views for a consolidated look.", role: "Performance Tuner, Front-End Dev", tools: "Drupal, jQuery, Chrome DevTools", image: biotechne, showRole: false },
+        { title: "The Amazing 4", description: "Full website, branding, and logo for a startup company that plans 4 events per year.", role: "Designer, WordPress Developer, Branding Consultant", tools: "WordPress, Illustrator, CSS", image: amazing4, showRole: false },
+        { title: "Magellan", description: "Won the opportunity to help alleviate some WordPress Issue by creating and installing a custom child theme.", role: "WordPress Developer, Theme Customizer", tools: "WordPress, PHP, CSS", image: magellan, showRole: false },
+        { title: "Nasa Curation Website", description: "These sites were created using a template that we initiated to bring all the pages into a standard look and feel.", role: "Design Standardization, Front-End Dev", tools: "HTML, CSS, NASA Template", image: lunar, showRole: false },
+        { title: "Personal Portfolio", description: "This was my previous online portfolio. Just a static website and now I've updated it to be a vite application.", role: "Sole Designer & Developer", tools: "HTML, CSS, Vite, Vue", image: online, showRole: false },
+        { title: "McKesson", description: "Brought on to Update internal dashboard and create better use of screen for KPI's.", role: "UI Designer, Dashboard Developer", tools: "Power BI, HTML, CSS", image: mckesson, showRole: false },
+        { title: "SandsTech", description: "I was brought on to research, gather, design, and develop an enterprise software called sandstech services suite.", role: "Product Strategist, UX Architect, Developer", tools: "Vue, Tailwind, Firebase", image: sandstech, showRole: false },
       ]
     };
   },
@@ -45,6 +54,7 @@ export default {
   }
 };
 </script>
+
 
 <style scoped>
 .fade-enter-active,.fade-leave-active { transition: opacity 0.3s ease; }
