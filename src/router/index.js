@@ -3,7 +3,6 @@ import home from '../views/home.vue'
 import about from '../views/about.vue'
 import services from '../views/services.vue'
 import schedule from '../views/schedule.vue'
-import history from '../views/history.vue'
 import contact from '../views/contact.vue'
 import promo from '../views/promo.vue'
 import graphics from '../views/graphics.vue'
@@ -30,11 +29,6 @@ const routes = [
       path: '/schedule',
       name: 'schedule',
       component: schedule,
-   },
-   {
-      path: '/history',
-      name: 'history',
-      component: history,
    },
    {
       path: '/contact',
