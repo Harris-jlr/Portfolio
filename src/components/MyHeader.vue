@@ -5,7 +5,7 @@
         <div class="flex lg:flex-1 items-center">
           <a href="/" class="-m-1.5 p-1.5 flex items-center">
             <span class="sr-only">Blueline Design<sup>™</sup></span>
-            <img class="h-28 w-auto" src="../assets/Dark1.png" alt="" />
+            <img class="h-28 w-auto" src="../assets/dark1.png" alt="" />
             <sup class="text-white text-xl ml-1">™</sup>
           </a>
         </div>
