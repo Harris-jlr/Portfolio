@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-800 text-gray-400 py-12 px-6">
+  <footer class="bg-gray-800 text-gray-400 py-6 px-6">
     <div class="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-9 gap-8 md:gap-16">
       
       <!-- Column 1-2: Copyright -->
@@ -43,16 +43,16 @@
 
       <!-- Column 7-8: Newsletter Subscription -->
       <div class="col-span-2 flex flex-col max-w-[220px]">
-  <h3 class="text-sm font-semibold text-gray-300 uppercase">Want to Learn More?</h3>
+  <h3 class="text-sm font-semibold text-gray-300 pb-2 uppercase">Want to Learn More?</h3>
   <form class="flex flex-col " @submit.prevent="subscribe">
     <input
       v-model="email" 
       type="email"
       placeholder="Enter your email"
-      class="w-full text-gray-900 rounded-md bg-white p-2"
+      class="w-80 text-gray-900 rounded-md bg-white p-1 pl-4"
       required
     />
-    <button type="submit" class="bg-teal-500 hover:bg-teal-600 text-white px-4 py-2 mt-2 rounded-md">
+    <button type="submit" class="w-30 bg-blue-500 hover:bg-blue-700 text-white px-1 py-1 mt-2 rounded-full">
       Submit
     </button>
   </form>
