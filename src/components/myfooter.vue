@@ -3,7 +3,7 @@
     <div class="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-9 gap-8 md:gap-16">
       
       <!-- Column 1-2: Copyright -->
-      <div class="col-span-3 flex flex-col">
+      <div class="col-span-1 md:col-span-3 flex flex-col">
         <p>&copy; 2025 Blueline Design, LLC. All rights reserved.</p>
         <div class="mt-4 flex space-x-6">
           <a href="https://www.facebook.com/OZONETherapy3" class="hover:text-white"><i class="fab fa-facebook fa-lg"></i></a>
@@ -17,7 +17,7 @@
  
 
       <!-- Column 4: Solutions -->
-      <div class="col-span-3 w-32">
+      <div class="col-span-3 w-32 hidden lg:block ">
         <h3 class="text-sm font-semibold text-gray-300 uppercase"></h3>
         <ul class="mt-2">
           <!-- <li v-for="item in navigation.solutions" :key="item.name">
@@ -42,14 +42,14 @@
 
 
       <!-- Column 7-8: Newsletter Subscription -->
-      <div class="col-span-2 flex flex-col max-w-[220px]">
+      <div class="col-span-2 flex flex-col w-48">
   <h3 class="text-sm font-semibold text-gray-300 pb-2 uppercase">Want to Learn More?</h3>
   <form class="flex flex-col " @submit.prevent="subscribe">
     <input
       v-model="email" 
       type="email"
       placeholder="Enter your email"
-      class="w-80 text-gray-900 rounded-md bg-white p-1 pl-4"
+      class="w-60 text-gray-900 rounded-md bg-white p-1 pl-4"
       required
     />
     <button type="submit" class="w-30 bg-blue-500 hover:bg-blue-700 text-white px-1 py-1 mt-2 rounded-full">

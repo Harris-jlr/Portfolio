@@ -4,7 +4,7 @@
       <div class="relative w-full h-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
         <!-- Front Side -->
         <div class="absolute inset-0 text-white overflow-hidden [backface-visibility:hidden]">
-          <img :src="card.image" :alt="card.title" class="w-full h-35 object-contain" />
+          <img :src="card.image" :alt="card.title" class="w-full object-contain" />
           <h3 class="pt-6 text-md font-semi text-center">{{ card.title }}</h3>
         </div>
         <!-- Back Side -->

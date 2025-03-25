@@ -1,28 +1,41 @@
 <template>
     <div class="w-full px-6 py-2 text-center">
       <!-- Title -->
-      <h2 class="text-white text-3xl font-semibold mb-1">Timeline of Work</h2>
-      <div class="text-lg text-blue-400 font-semibold mb-2">{{ activeYear }}</div>
-  
-      <!-- Year Timeline -->
-      <div class="relative w-full flex items-center justify-center mb-4">
-        <div class="w-full max-w-5xl flex justify-between items-center border-t border-gray-600 pt-4">
-          <div
+      <h2 class="text-white text-3xl font-semibold mb-4">Graphics Timeline</h2>
+      
+       <!-- Year Timeline -->
+       <div class="relative max-w-5xl mx-auto mb-3">
+        <div class="w-full border-t border-gray-600 pt-4">
+
+        <!-- Timeline line -->
+        <div class="flex justify-between items-center">
+            <div
             v-for="year in years"
             :key="year"
             @click="jumpToYear(year)"
-            class="cursor-pointer text-sm text-gray-300 hover:text-blue-400"
-          >
+            class="cursor-pointer text-sm text-gray-300 hover:text-blue-400 mt-2 hidden md:block"
+            >
             <div class="flex flex-col items-center">
-              <div
+                <div
                 class="w-2 h-2 rounded-full mb-1"
                 :class="year === activeYear ? 'bg-blue-500 scale-125' : 'bg-gray-800'"
-              />
-              {{ year }}
+                />
+                {{ year }}
             </div>
-          </div>
+            </div>
         </div>
-      </div>
+        </div>
+
+        <!-- Draggable Dot Positioned Above -->
+        <DraggableYearDot
+        :activeYear="activeYear"
+        :years="years"
+        @jump="jumpToYear"
+        class="absolute top-[-24px] mx-auto my-4 left-0 w-20 z-10 hidden sm:block"
+        />
+        </div>
+
+
   
       <!-- 3D Carousel Style -->
       <div class="relative w-full max-w-8xl mx-auto h-[50vh] flex items-center justify-center">
@@ -38,7 +51,7 @@
       :src="visibleImages[0].src"
      @mouseenter="startAutoScroll('prev')"
      @mouseleave="stopAutoScroll"
-      class="h-[30vh] w-auto opacity-80 scale-90 transition-all hover:scale-95 duration-700 ease-in-out  shadow-md"
+      class="hidden sm: block h-[30vh] w-auto opacity-80 scale-90 transition-all hover:scale-95 duration-700 ease-in-out  shadow-md"
     />
     <img
       v-if="visibleImages[1]"
@@ -50,7 +63,7 @@
       :src="visibleImages[2].src"
       @mouseenter="startAutoScroll('next')"
       @mouseleave="stopAutoScroll" 
-      class="h-[30vh] w-auto opacity-80 scale-90 transition-all hover:scale-95 duration-700 ease-in-out  shadow-md"
+      class="hidden sm:block h-[30vh] w-auto opacity-80 scale-90 transition-all hover:scale-95 duration-700 ease-in-out  shadow-md"
     />
   </div>
 
@@ -94,7 +107,8 @@
   import pres4 from '../assets/pagestatistics.png'
   import pres5 from '../assets/reporting.png'
   import pres6 from '../assets/samplewebapp.png'
-  
+  import DraggableYearDot from '../components/YearSlider.vue'
+
   const images = [
     { src: invite3, year: 2009 },
     { src: invite1, year: 2010 },

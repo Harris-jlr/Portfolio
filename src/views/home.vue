@@ -1,7 +1,7 @@
 // HOME.vue
 <template>
       <LandingPage />
-      <ItsMe class="absolute right-4 sm:bottom-85 md:bottom-56 lg:bottom-51 hidden sm:block"/> 
+      <ItsMe class="absolute right-4 sm:bottom-42 md:bottom-37 lg:bottom-37 hidden sm:block"/> 
 </template>
 
 <script>
