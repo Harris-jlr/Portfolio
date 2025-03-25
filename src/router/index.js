@@ -9,6 +9,7 @@ import graphics from '../views/graphics.vue'
 import websites from '../views/websites.vue'
 import journey from '../views/journey.vue'
 import skills from '../views/skills.vue'
+
 const routes = [
     {
         path: '/',

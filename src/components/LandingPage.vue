@@ -14,10 +14,10 @@
 
       <!-- buttons -->
       <div class="mt-10 flex items-center justify-center gap-x-6">
-        <a href="/schedule" class="rounded-md bg-blue-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400">
+        <a href="/schedule" class="rounded-full bg-blue-500 px-4.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-400">
           We are Ready to go!
         </a>
-        <a href="/company" class="text-sm font-semibold text-white">
+        <a href="/about" class="text-sm font-semibold text-white">
           Learn more <span aria-hidden="true">→</span>
         </a>
       </div>

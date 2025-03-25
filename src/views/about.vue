@@ -1,14 +1,14 @@
 // About.vue
 <template>
-        <AboutPemf />
+        <LearnMore />
 
 </template>
 
 
 <script>
-import AboutPemf from '/src/components/AboutPemf.vue'
+import LearnMore from '/src/components/LearnMore.vue'
 
 export default {
-  components: { AboutPemf  },
+  components: { LearnMore  },
 }
 </script>
