@@ -56,7 +56,7 @@
 import JudyImg from '../assets/team/JudyR.png'
 import HeathImg from '../assets/team/HeathB.png'
 import DerekImg from '../assets/team/DerekR.png'
-import JoeImg from '../assets/team/JOEB.png'
+import JoeImg from '../assets/team/JoeB.png'
 import AdamImg from '../assets/team/AdamN.png'
 import JustinImg from '../assets/team/JustinP.png'
 
