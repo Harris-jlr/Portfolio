@@ -51,7 +51,7 @@
       :src="visibleImages[0].src"
      @mouseenter="startAutoScroll('prev')"
      @mouseleave="stopAutoScroll"
-      class="hidden sm: block h-[30vh] w-auto opacity-80 scale-90 transition-all hover:scale-95 duration-700 ease-in-out  shadow-md"
+      class="hidden sm:block h-[30vh] w-auto opacity-80 scale-90 transition-all hover:scale-95 duration-700 ease-in-out  shadow-md"
     />
     <img
       v-if="visibleImages[1]"
